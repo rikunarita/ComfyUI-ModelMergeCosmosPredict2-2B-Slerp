@@ -1,2 +1,0 @@
-# requirements.txt
-# 依存ライブラリはComfyUI本体の環境に依存するため、ここでは空にします。
