@@ -5,13 +5,6 @@ import comfy.model_management
 
 # ──────────────────────────────────────────────────────────────
 # Slerp（球面線形補間）実装
-#
-# 参考文献:
-#   - Model Soups (Wortsman et al., ICML 2022)
-#   - TIES-Merging (Yadav et al., NeurIPS 2023) - Sign Elect 概念
-#   - MergeKit SLERP (arcee-ai/mergekit)
-#   - Shoemake, K. (1985) "Animating Rotation with Quaternion Curves"
-#
 # 設計方針:
 #   - 内積が負の場合に符号反転（最短経路補間）
 #   - ノルムは線形補間でスケール維持
