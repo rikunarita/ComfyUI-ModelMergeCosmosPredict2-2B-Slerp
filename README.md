@@ -19,7 +19,7 @@ Unlike standard linear merging, Slerp preserves the magnitude of the weight vect
 2. Click on **"Install via Git URL"**.
 3. Paste the following URL and click Install:
    ```
-   https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp.git
+   https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict2-2B-Slerp.git
    ```
 4. Restart ComfyUI.
 
@@ -27,14 +27,14 @@ Unlike standard linear merging, Slerp preserves the magnitude of the weight vect
 1. Navigate to your `ComfyUI/custom_nodes/` directory.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp.git
+   git clone https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict2-2B-Slerp.git
    ```
 3. Restart ComfyUI.
 
 ## 🚀 Usage
 
 1. Load two Cosmos Predict 2B checkpoints using the standard **Load Checkpoint** nodes.
-2. Add the **Model Merge Cosmos Predict 2B (Slerp)** node to your graph.
+2. Add the **Model Merge Cosmos Predict 2 2B (Slerp)** node to your graph.
 3. Connect the two models to `model1` and `model2`.
 4. Set the **`merge_mode`** to either `slerp` or `linear`.
 5. Adjust the individual sliders for each block to control the blending ratio (0.0 to 1.0).
@@ -55,7 +55,7 @@ Unlike standard linear merging, Slerp preserves the magnitude of the weight vect
 ## 📝 Node Details
 
 - **Node Name**: `ModelMergeCosmosPredict2_2B_Slerp`
-- **Display Name**: Model Merge Cosmos Predict 2B (Slerp)
+- **Display Name**: Model Merge Cosmos Predict 2 2B (Slerp)
 - **Category**: `model/merging/model specific`
 - **Inputs**: 
   - `model1` (MODEL)
