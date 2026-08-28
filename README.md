@@ -1,8 +1,6 @@
 # ComfyUI-ModelMergeCosmosPredict2-2B-Slerp
 
-A specialized ComfyUI custom node for merging **Cosmos Predict 2 2B** models using **Slerp (Spherical Linear Interpolation)** and **Linear Interpolation**. 
-
-**It can also be used for "Anima" developed by circlestone-labs.**
+A specialized ComfyUI custom node for merging **Cosmos Predict 2 2B** models using **Slerp (Spherical Linear Interpolation)** and Linear Interpolation, **also compatible with the currently trending *Anima* model developed by circlestone-labs**.
 
 Unlike standard linear merging, Slerp preserves the magnitude of the weight vectors, resulting in sharper and more stable outputs when merging models with significantly different characteristics or styles.
 
