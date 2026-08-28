@@ -1,4 +1,4 @@
-# ComfyUI-ModelMergeCosmosPredict-2B-Slerp
+# ComfyUI-ModelMergeCosmosPredict2-2B-Slerp
 
 A specialized ComfyUI custom node for merging **Cosmos Predict 2B** models using **Slerp (Spherical Linear Interpolation)** and **Linear Interpolation**. 
 
