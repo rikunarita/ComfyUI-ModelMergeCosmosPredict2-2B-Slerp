@@ -203,16 +203,10 @@ class ModelMergeCosmosPredict2_2B_Slerp(comfy_extras.nodes_model_merging.ModelMe
         return (new_model,)
 
 
-# ──────────────────────────────────────────────────────────────
-# ノードマッピング（既存のマッピングに追加）
-# ──────────────────────────────────────────────────────────────
-# 既存のNODE_CLASS_MAPPINGSに以下を追加してください：
-# "ModelMergeCosmosPredict2_2B_Slerp": ModelMergeCosmosPredict2_2B_Slerp,
-
 NODE_CLASS_MAPPINGS_ADDITIONAL = {
     "ModelMergeCosmosPredict2_2B_Slerp": ModelMergeCosmosPredict2_2B_Slerp,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS_ADDITIONAL = {
-    "ModelMergeCosmosPredict2_2B_Slerp": "Model Merge Cosmos Predict 2B (Slerp)",
+    "ModelMergeCosmosPredict2_2B_Slerp": "Model Merge Cosmos Predict 2 2B (Slerp)",
 }
