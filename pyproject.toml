@@ -1,6 +1,6 @@
 [project]
 name = "comfyui-model-merge-cosmos-predict-2-2b-slerp"
-description = "A specialized ComfyUI custom node for merging Cosmos Predict 2B models using Slerp (Spherical Linear Interpolation) and Linear Interpolation."
+description = "A specialized ComfyUI custom node for merging Cosmos Predict 2 2B models using Slerp (Spherical Linear Interpolation) and Linear Interpolation, also compatible with the currently trending Anima model developed by circlestone-labs."
 version = "1.0.0"
 license = { file = "LICENSE" }
 
