@@ -10,11 +10,11 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/rikunarita/ComfyUI-Model-Manager-Neo"
+Repository = "https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp"
 
 [tool.comfy]
 PublisherId = "rikunarita7669"
-DisplayName = "ComfyUI-Model-Manager-Neo"
+DisplayName = "ComfyUI-Model-Merge-Cosmos-Predict-2-2B-Slerp"
 Icon = ""
 
 [tool.black]
