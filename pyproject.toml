@@ -3,11 +3,6 @@ name = "comfyui-model-merge-cosmos-predict-2-2b-slerp"
 description = "A specialized ComfyUI custom node for merging Cosmos Predict 2B models using Slerp (Spherical Linear Interpolation) and Linear Interpolation."
 version = "1.0.0"
 license = { file = "LICENSE" }
-dependencies = [
-    "markdownify",
-    "huggingface_hub>=0.25.0",
-    "hf_xet>=1.0.0"
-]
 
 [project.urls]
 Repository = "https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp"
